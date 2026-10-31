@@ -1,0 +1,11 @@
+/* API 1-compatible part of the Retro proposal (#69). */
+:root { --retro-ink: #f4f1de; --retro-blue: #16163a; --retro-yellow: #ffd23f; --retro-pink: #ff4fa3; }
+.ctv-home { background-color: #0b0b1e; color: var(--retro-ink); }
+.ctv-ambient { background-image: linear-gradient(0deg, transparent 0%, transparent 100%); }
+.ctv-clock { color: var(--retro-yellow); text-shadow: 6px 6px 0 var(--retro-pink); }
+.ctv-date { color: #9a97c9; }
+.ctv-card { background-color: var(--retro-blue); border-color: #9a97c9; border-radius: 0; box-shadow: 8px 8px 0 #000000; }
+.ctv-card.is-focused { background-color: var(--retro-yellow); border-color: var(--retro-yellow); box-shadow: 8px 8px 0 var(--retro-pink); }
+.ctv-label { color: var(--retro-yellow); }
+.ctv-label.is-focused { color: #000000; }
+.ctv-focus { border-color: var(--retro-yellow); border-radius: 0; box-shadow: 8px 8px 0 var(--retro-pink); }
