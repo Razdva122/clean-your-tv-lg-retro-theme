@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/xandymelo/clean-your-tv-lg-retro-theme",
+  "themes": [
+    {
+      "id": "github:xandymelo/clean-your-tv-lg-retro-theme:retro",
+      "title": "Retro",
+      "themeVersion": "1.0.0",
+      "path": "distributions/retro/1.0.0/cytv-theme.json",
+      "sha256": "e03a9455f59067d4c79da719e6b2113615f31b7790e66585d5fcea97db12f2c6"
+    }
+  ]
+}
